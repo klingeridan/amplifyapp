@@ -4,6 +4,7 @@ import './App.css';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
 function App() {
+    console.log("IDAN");
     return (
         <div className="App">
             <header>
